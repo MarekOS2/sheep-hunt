@@ -1,0 +1,16 @@
+name: SheepHuntPlugin
+version: '${project.version}'
+main: pl.marekdev.sheephuntplugin.SheepHuntPlugin
+api-version: '1.20'
+
+commands:
+  sheep-hunt-start:
+    usage: "/sheep-hunt-start"
+    description: "starts sheep hunt, gives a sheep-compass that points to sheep you have to dye"
+    permission: "sheep-hunt.start-sheep-hunt"
+    permission-message: "no permission to use that command."
+  sheep-hunt-end:
+    usage: "/sheep-hunt-end"
+    description: "ends sheep hunt for hunted player"
+    permission: "sheep-hunt.end-sheep-hunt"
+    permission-message: "no permission to use that command."

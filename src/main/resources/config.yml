@@ -1,0 +1,25 @@
+sheep-spawn-radius: 1000 # maximal distance of a sheep spawns from a player (in blocks)
+sheep-to-dye-to-win: 10 # number of sheep needed to win a sheep hunt
+
+#  sent to all players after player successfully dyed all sheep (you can add colors with '&')
+hunt-completed-message-all-chat: "&3%playerName% &esuccessfully completed sheep hunt" # (don't delete %playerName%, won't work)
+
+# sent to player after dying the sheep (you can add colors with '&')
+player-dyed-sheep-message: "&eyou dyed &3%current%&e/&3%target% &esheep" # (don't delete %playerName%, won't work)
+
+sheep-compass:
+  display-name: "sheep compass"
+  display-name-is-bold: true
+  display-name-color:
+    red: 0 # 0-255
+    green: 255 # 0-255
+    blue: 0 # 0-255
+
+
+sheep-dye:
+  display-name: "sheep dye"
+  display-name-is-bold: true
+  display-name-color:
+    red: 0 # 0-255
+    green: 255 # 0-255
+    blue: 0 # 0-255
